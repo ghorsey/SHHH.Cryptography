@@ -8,8 +8,8 @@
     <ProjectGuid>{CE80E377-2208-4D94-A51E-4E3FBFD620D4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SquareOne.Cryptography</RootNamespace>
-    <AssemblyName>SquareOne.Cryptography</AssemblyName>
+    <RootNamespace>SHHH.Cryptography</RootNamespace>
+    <AssemblyName>SHHH.Cryptography</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>

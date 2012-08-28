@@ -8,8 +8,8 @@
     <ProjectGuid>{79531C6A-6287-42FC-A58F-2B3366854D8B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SquareOne.Cryptography.Tests</RootNamespace>
-    <AssemblyName>SquareOne.Cryptography.Tests</AssemblyName>
+    <RootNamespace>SHHH.Cryptography.Tests</RootNamespace>
+    <AssemblyName>SHHH.Cryptography.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
