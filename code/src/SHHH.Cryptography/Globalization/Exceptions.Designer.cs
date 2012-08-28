@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SHHH.Cryptography.Globalization {
-    using System;
-    
-    
+namespace SHHH.Cryptography.Globalization
+{
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
