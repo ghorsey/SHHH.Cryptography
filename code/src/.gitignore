@@ -1,0 +1,8 @@
+packages
+bin
+obj
+*.pyc
+*.user
+*.suo
+*.Publish.xml
+*-results.xml
