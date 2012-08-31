@@ -10,5 +10,10 @@ Cryptography Libraries
 ====================================
 Here are some basic infrastructure code for encrypting and decrypting strings.
 
+* Compute a MD5 Hash
+* Create HMAC code
+* Use Rinjndael to encrypt and decrypt strings
+* Generate random strings
+
 Enjoy
 G~

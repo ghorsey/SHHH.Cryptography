@@ -82,6 +82,7 @@
     </Compile>
     <Compile Include="HMAC.cs" />
     <Compile Include="ICryptographer.cs" />
+    <Compile Include="MD5Hash.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomPassword.cs" />
   </ItemGroup>
