@@ -1,1 +1,0 @@
-.nuget\nuget.exe install SHHH.Cryptography.Tests\packages.config -OutputDirectory packages
