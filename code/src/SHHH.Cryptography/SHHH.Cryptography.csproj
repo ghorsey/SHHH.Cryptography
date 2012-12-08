@@ -74,7 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CrypographyExtensions.cs" />
-    <Compile Include="Cryptographers\RinjndaelCryptographer.cs" />
+    <Compile Include="Cryptographers\RijndaelCryptographer.cs" />
     <Compile Include="Cryptographer.cs" />
     <Compile Include="Cryptographers\DefaultCryptographer.cs" />
     <Compile Include="Globalization\Exceptions.Designer.cs">
