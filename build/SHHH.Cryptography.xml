@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SHHH.Cryptography</name>
+    </assembly>
+    <members>
+        <member name="T:SHHH.Cryptography.CrypographyExtensions">
+            <summary>
+            Collection of extension methods for working with the cryptography library
+            </summary>
+        </member>
+        <member name="M:SHHH.Cryptography.CrypographyExtensions.MaskLeft(System.String,System.Char,System.Int32)">
+            <summary>
+            Masks the string with the <c>maskChar</c> character.
+            </summary>
+            <example>
+            <c>MaskLeft("4111111111111111", "*", 4) = "***********1111"</c>
+            </example>
+            <param name="toMask">The string to mask.</param>
+            <param name="maskChar">The mask character.</param>
+            <param name="showLast">Show last <see cref="!:System.Int"/> characters.</param>
+            <returns>The masked <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:SHHH.Cryptography.CrypographyExtensions.MaskRight(System.String,System.Char,System.Int32)">
+            <summary>
+            Masks the string with the <c>maskChar</c>, showing only the first <c>showFirst</c> characters
+            </summary>
+            <example>
+            <c>MaskRight("4111111111111111", "*", 4) = "4111************"</c>
+            </example>
+            <param name="toMask">To mask.</param>
+            <param name="maskChar">The mask character.</param>
+            <param name="showFirst">The show first x characters.</param>
+            <returns>The masked <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:SHHH.Cryptography.CrypographyExtensions.Decrypt(System.String)">
+            <summary>
+            Decrypts the specified to decrypt.
+            </summary>
+            <param name="toDecrypt">To decrypt.</param>
+            <returns>
+            The decrypted data
+            </returns>
+        </member>
+        <member name="M:SHHH.Cryptography.CrypographyExtensions.Decrypt(System.String,System.String)">
+            <summary>
+            Decrypts the specified to decrypt.
+            </summary>
+            <param name="toDecrypt">To decrypt.</param>
+            <param name="salt">The salt.</param>
+            <returns>
+            The decrypted data
+            </returns>
+        </member>
+        <member name="M:SHHH.Cryptography.CrypographyExtensions.Encrypt(System.String)">
+            <summary>
+            Encrypts the specified to encrypt.
+            </summary>
+            <param name="toEncrypt">To encrypt.</param>
+            <returns>
+            The data encrypted
+            </returns>
+        </member>
+        <member name="M:SHHH.Cryptography.CrypographyExtensions.Encrypt(System.String,System.String)">
+            <summary>
+            Encrypts the specified to encrypt.
+            </summary>
+            <param name="toEncrypt">To encrypt.</param>
+            <param name="salt">The salt.</param>
+            <returns>
+            The data decrypted
+            </returns>
+        </member>
+        <member name="M:SHHH.Cryptography.CrypographyExtensions.CreateMask(System.String,System.Char,System.Int32)">
+            <summary>
+            Creates the mask.
+            </summary>
+            <param name="toMask">To mask.</param>
+            <param name="maskChar">The mask char.</param>
+            <param name="unmask">The unmask.</param>
+            <returns>The masked <see cref="T:System.String"/></returns>
+        </member>
+        <member name="T:SHHH.Cryptography.Cryptographers.RijndaelCryptographer">
+            <summary>
+            A Rijndael Cryptographer, Passphrase can be set in the app setting key <c>"RijndaelSimple::PassPhrase"</c>, otherwise
+            a default is used.
+            And a 16 byte initialization vector can be set in the app setting key <c>"RijndaelSimple::16ByteInitVector"</c>, otherwise a
+            default initialization vector is used.
+            </summary>
+        </member>
+        <member name="T:SHHH.Cryptography.ICryptographer">
+            <summary>
+            The interface with describes the methods which must be implemented by a concrete cryptographer
+            </summary>
+        </member>
+        <member name="M:SHHH.Cryptography.ICryptographer.Encrypt(System.String,System.String)">
+            <summary>
+            Encrypts the specified salt.
+            </summary>
+            <param name="salt">The salt.</param>
+            <param name="toEncrypt">To encrypt.</param>
+            <returns>The encrypted string</returns>
+        </member>
+        <member name="M:SHHH.Cryptography.ICryptographer.Decrypt(System.String,System.String)">
+            <summary>
+            Decrypts the specified salt.
+            </summary>
+            <param name="salt">The salt.</param>
+            <param name="toDecrypt">To decrypt.</param>
+            <returns>The decrypted string</returns>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SHHH.Cryptography.Cryptographers.RijndaelCryptographer"/> class.
+            </summary>
+            <param name="passPhrase">The pass phrase.</param>
+            <param name="initVector16Bytes">The 16 bytes initialization vector.</param>
+            <exception cref="T:System.ArgumentException">The <c>passPhrase</c> and <c>initVector16Bytes</c>cannot be null or whitespace</exception>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            Encrypts the specified to encrypt.
+            </summary>
+            <param name="toEncrypt">To encrypt.</param>
+            <param name="passPhrase">The pass phrase.</param>
+            <param name="saltValue">The salt value.</param>
+            <param name="hashAlgorithm">The hash algorithm.</param>
+            <param name="passwordIterations">The password iterations.</param>
+            <param name="initVector">The init vector.</param>
+            <param name="keySize">Size of the key.</param>
+            <returns>The encrypted string</returns>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            Decrypts specified <c>cipherText</c> using Rijndael symmetric key algorithm.
+            </summary>
+            <param name="cipherText">Base64-formatted <c>cipherText</c> value.</param>
+            <param name="passPhrase">Passphrase from which a pseudo-random password will be derived. The
+            derived password will be used to generate the encryption key.
+            Passphrase can be any string. In this example we assume that this
+            passphrase is an ASCII string.</param>
+            <param name="saltValue">Salt value used along with passphrase to generate password. Salt can
+            be any string. In this example we assume that salt is an ASCII string.</param>
+            <param name="hashAlgorithm">Hash algorithm used to generate password. Allowed values are: "MD5" and
+            "SHA1". SHA1 hashes are a bit slower, but more secure than MD5 hashes.</param>
+            <param name="passwordIterations">Number of iterations used to generate password. One or two iterations
+            should be enough.</param>
+            <param name="initVector">Initialization vector (or IV). This value is required to encrypt the
+            first block of plaintext data. For RijndaelManaged class IV must be
+            exactly 16 ASCII characters long.</param>
+            <param name="keySize">Size of encryption key in bits. Allowed values are: 128, 192, and 256.
+            Longer keys are more secure than shorter keys.</param>
+            <returns>
+            Decrypted string value.
+            </returns>
+            <remarks>
+            Most of the logic in this function is similar to the Encrypt
+            logic. In order for decryption to work, all parameters of this function
+            - except <c>cipherText</c> value - must match the corresponding parameters of
+            the Encrypt function which was called to generate the
+            cipher text.
+            </remarks>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String)">
+            <summary>
+            Encrypts the to encrypt string with the salt specified.
+            </summary>
+            <param name="salt">The salt to add to the encrypted data.</param>
+            <param name="toEncrypt">To data to encrypt.</param>
+            <returns>
+            The encrypted string
+            </returns>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String)">
+            <summary>
+            Decrypts the to decrypt with the specified salt.
+            </summary>
+            <param name="salt">The salt to be removed from the encrypted data.</param>
+            <param name="toDecrypt">To data to decrypt.</param>
+            <returns>
+            The decrypted string
+            </returns>
+        </member>
+        <member name="P:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.PassPhrase">
+            <summary>
+            Gets or sets the pass phrase used to encrypt the data. A passphrase can be set in the AppSetting key "RijndaelSimple::PassPhrase".
+            </summary>
+            <value>The pass phrase.</value>
+        </member>
+        <member name="P:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.InitVector">
+            <summary>
+            Gets or sets the initialization vector, a 16 byte string from the AppSetting key <c>"RijndaelSimple::16ByteInitVector"</c>.
+            </summary>
+            <value>The initialization vector.</value>
+        </member>
+        <member name="T:SHHH.Cryptography.Cryptographer">
+            <summary>
+            The object used to encrypt and decrypt strings.
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.Cryptographer.SynLock">
+            <summary>
+            The static object used to lock the shared data
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.Cryptographer.instance">
+            <summary>
+            The _instance
+            </summary>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SHHH.Cryptography.Cryptographer"/> class.
+            </summary>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographer.Encrypt(System.String,System.String)">
+            <summary>
+            Encrypts the specified salt.
+            </summary>
+            <param name="salt">The salt.</param>
+            <param name="toEncrypt">To encrypt.</param>
+            <returns>The encrypted <see cref="T:System.String"/>.</returns>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographer.Decrypt(System.String,System.String)">
+            <summary>
+            Decrypts the specified salt.
+            </summary>
+            <param name="salt">The salt.</param>
+            <param name="toDecrypt">To decrypt.</param>
+            <returns>The decrypted <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographer.SetCryptographer(SHHH.Cryptography.ICryptographer)">
+            <summary>
+            Sets the cryptographer.
+            </summary>
+            <param name="cryptographer">The cryptographer.</param>
+            <exception cref="T:System.ArgumentNullException">The cryptographer parameter cannot be null</exception>
+        </member>
+        <member name="P:SHHH.Cryptography.Cryptographer.Current">
+            <summary>
+            Gets the current.
+            </summary>
+            <value>
+            The current.
+            </value>
+        </member>
+        <member name="P:SHHH.Cryptography.Cryptographer.InternalCryptographer">
+            <summary>
+            Gets or sets the internal cryptographer.
+            </summary>
+            <value>
+            The internal cryptographer.
+            </value>
+        </member>
+        <member name="T:SHHH.Cryptography.Cryptographers.DefaultCryptographer">
+            <summary>
+            The default cryptographer does no encryption and just passes through string values
+            </summary>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographers.DefaultCryptographer.Encrypt(System.String,System.String)">
+            <summary>
+            Encrypts the specified salt.
+            </summary>
+            <param name="salt">The salt.</param>
+            <param name="toEncrypt">To encrypt.</param>
+            <returns>
+            The encrypted string
+            </returns>
+        </member>
+        <member name="M:SHHH.Cryptography.Cryptographers.DefaultCryptographer.Decrypt(System.String,System.String)">
+            <summary>
+            Decrypts the specified salt.
+            </summary>
+            <param name="salt">The salt.</param>
+            <param name="toDecrypt">To decrypt.</param>
+            <returns>
+            The decrypted string
+            </returns>
+        </member>
+        <member name="T:SHHH.Cryptography.Globalization.Exceptions">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:SHHH.Cryptography.Globalization.Exceptions.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:SHHH.Cryptography.Globalization.Exceptions.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:SHHH.Cryptography.Globalization.Exceptions.InvalidInitVector">
+            <summary>
+              Looks up a localized string similar to The init vector must be 16 bytes long.
+            </summary>
+        </member>
+        <member name="P:SHHH.Cryptography.Globalization.Exceptions.MissingEmptyPassPhrase">
+            <summary>
+              Looks up a localized string similar to The Passphrase cannot be empty or null.
+            </summary>
+        </member>
+        <member name="T:SHHH.Cryptography.HMAC">
+            <summary>
+            Performs HMAC hashing
+            </summary>
+        </member>
+        <member name="M:SHHH.Cryptography.HMAC.#ctor(System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:SHHH.Cryptography.HMAC"/> class.
+            </summary>
+            <param name="key">The key.</param>
+        </member>
+        <member name="M:SHHH.Cryptography.HMAC.ComputeHash(System.String,System.String,System.DateTime)">
+            <summary>
+            Computes the hash.
+            </summary>
+            <param name="salt">The salt.</param>
+            <param name="data">The data.</param>
+            <param name="expiry">The expiry.</param>
+            <returns>The computed hash as a <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:SHHH.Cryptography.HMAC.VerifyHash(System.String,System.String,System.String)">
+            <summary>
+            Verifies the hash.
+            </summary>
+            <param name="salt">The salt.</param>
+            <param name="data">The data.</param>
+            <param name="hash">The hash.</param>
+            <returns><see cref="T:SHHH.Cryptography.HMAC.HMACResult"/></returns>
+        </member>
+        <member name="M:SHHH.Cryptography.HMAC.Swap(System.String,System.String,System.String)">
+            <summary>
+            Swaps the specified STR.
+            </summary>
+            <param name="str">The STR.</param>
+            <param name="input">The input.</param>
+            <param name="output">The output.</param>
+            <returns>The swapped value</returns>
+        </member>
+        <member name="P:SHHH.Cryptography.HMAC.Key">
+            <summary>
+            Gets or sets the key.
+            </summary>
+            <value>
+            The key.
+            </value>
+        </member>
+        <member name="T:SHHH.Cryptography.HMAC.HMACResult">
+            <summary>
+            The possible HMAC results of checking against a hashed value
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.HMAC.HMACResult.OK">
+            <summary>
+            The result passed validation
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.HMAC.HMACResult.Expired">
+            <summary>
+            An expired result
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.HMAC.HMACResult.Invalid">
+            <summary>
+            An invalid result
+            </summary>
+        </member>
+        <member name="T:SHHH.Cryptography.MD5Hash">
+            <summary>
+            A class used to compute a MD5 hash
+            </summary>
+        </member>
+        <member name="M:SHHH.Cryptography.MD5Hash.ComputeHash(System.String)">
+            <summary>
+            Computes the hash.
+            </summary>
+            <param name="input">The input.</param>
+            <returns>A MD5 has of the input string</returns>
+        </member>
+        <member name="T:SHHH.Cryptography.RandomPassword">
+            <summary>
+            This class can generate random passwords, which do not include ambiguous 
+            characters, such as I, l, and 1. The generated password will be made of
+            7-bit ASCII symbols. Every four characters will include one lower case
+            character, one upper case character, one number, and one special symbol
+            (such as '%') in a random order. The password will always start with an
+            alpha-numeric character; it will not start with a special symbol (we do
+            this because some back-end systems do not like certain special
+            characters in the first position).
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.RandomPassword.defaultMinPasswordLength">
+            <summary>
+            The default min password length
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.RandomPassword.defaultMaxPasswordLength">
+            <summary>
+            The default max password length
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.RandomPassword.passwordCharsLowercase">
+            <summary>
+            The password chars lowercase
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.RandomPassword.passwordCharsUppercase">
+            <summary>
+            The password chars uppercase
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.RandomPassword.passwordCharsNumeric">
+            <summary>
+            The password chars numeric
+            </summary>
+        </member>
+        <member name="F:SHHH.Cryptography.RandomPassword.passwordCharsSpecial">
+            <summary>
+            The password chars special
+            </summary>
+        </member>
+        <member name="M:SHHH.Cryptography.RandomPassword.Generate">
+            <summary>
+            Generates a random password.
+            </summary>
+            <returns>
+            Randomly generated password.
+            </returns>
+            <remarks>
+            The length of the generated password will be determined at
+            random. It will be no shorter than the minimum default and
+            no longer than maximum default.
+            </remarks>
+        </member>
+        <member name="M:SHHH.Cryptography.RandomPassword.Generate(System.Int32)">
+            <summary>
+            Generates a random password of the exact length.
+            </summary>
+            <param name="length">Exact password length.</param>
+            <returns>
+            Randomly generated password.
+            </returns>
+        </member>
+        <member name="M:SHHH.Cryptography.RandomPassword.Generate(System.Int32,System.Int32)">
+            <summary>
+            Generates a random password.
+            </summary>
+            <param name="minLength">Minimum password length.</param>
+            <param name="maxLength">Maximum password length.</param>
+            <returns>
+            Randomly generated password.
+            </returns>
+            <remarks>
+            The length of the generated password will be determined at
+            random and it will fall with the range determined by the
+            function parameters.
+            </remarks>
+        </member>
+    </members>
+</doc>
