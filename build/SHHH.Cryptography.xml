@@ -18,7 +18,7 @@
             </example>
             <param name="toMask">The string to mask.</param>
             <param name="maskChar">The mask character.</param>
-            <param name="showLast">Show last <see cref="!:System.Int"/> characters.</param>
+            <param name="showLast">Show last <see cref="T:System.Int32"/> characters.</param>
             <returns>The masked <see cref="T:System.String"/></returns>
         </member>
         <member name="M:SHHH.Cryptography.CrypographyExtensions.MaskRight(System.String,System.Char,System.Int32)">

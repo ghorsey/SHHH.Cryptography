@@ -16,7 +16,7 @@ namespace SHHH.Cryptography
         /// </example>
         /// <param name="toMask">The string to mask.</param>
         /// <param name="maskChar">The mask character.</param>
-        /// <param name="showLast">Show last <see cref="System.Int"/> characters.</param>
+        /// <param name="showLast">Show last <see cref="int"/> characters.</param>
         /// <returns>The masked <see cref="System.String"/></returns>
         public static string MaskLeft(this string toMask, char maskChar, int showLast)
         {
