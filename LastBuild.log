@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\SHHH_Cryptography.shfbproj" started="4/1/2013 10:52:59 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\SHHH_Cryptography.shfbproj" started="4/1/2013 11:04:48 PM">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
@@ -10,19 +10,21 @@ Source: E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH.Cryptography\SHH
     Found project &#39;E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH.Cryptography\SHHH.Cryptography.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH.Cryptography\bin\Debug\SHHH.Cryptography.dll&#39;
+    Found assembly &#39;E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH.Cryptography\bin\Release\SHHH.Cryptography.dll&#39;
 
 References to include (excluding framework assemblies):
     None
-SHFB: Warning BE0062: No XML comments files found.  The help file will not contain any member comments.
+
+Copying XML comments files
+    E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH.Cryptography\bin\Release\SHHH.Cryptography.xml -&gt; E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\SHHH.Cryptography.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0190
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -34,18 +36,18 @@ Generating reflection information...
   XslTransform (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:00.9211
+    Last step completed in 00:00:00.9631
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     0 attribute nodes removed
     0 explicit interface implementations removed
     0 local and base class EII elements removed
-    Last step completed in 00:00:00.0610
+    Last step completed in 00:00:00.1180
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -57,7 +59,7 @@ Transforming reflection output...
   XslTransform (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:00.6880
+    Last step completed in 00:00:00.6770
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -260,12 +262,12 @@ C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; E:\Users\G
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\branding\ps-instrumentedLink.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\branding\ps-languageSpecificText.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:00.1630
+    Last step completed in 00:00:00.1550
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -278,17 +280,17 @@ Generating intermediate table of contents file...
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2080
+    Last step completed in 00:00:00.2100
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0180
+    Last step completed in 00:00:00.0190
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.0990
+    Last step completed in 00:00:00.0780
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -297,119 +299,9 @@ Building reference help topics...
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Loading configuration...
   Info: Processing topics...
-  Warn: ShowMissingComponent: [T:SHHH.Cryptography.CrypographyExtensions] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Decrypt(System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Decrypt(System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Decrypt(System.String)] Missing &lt;param name=&quot;toDecrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Decrypt(System.String,System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Decrypt(System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Decrypt(System.String,System.String)] Missing &lt;param name=&quot;toDecrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Decrypt(System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Encrypt(System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Encrypt(System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Encrypt(System.String)] Missing &lt;param name=&quot;toEncrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Encrypt(System.String,System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Encrypt(System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Encrypt(System.String,System.String)] Missing &lt;param name=&quot;toEncrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.Encrypt(System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.MaskLeft(System.String,System.Char,System.Int32)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.MaskLeft(System.String,System.Char,System.Int32)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.MaskLeft(System.String,System.Char,System.Int32)] Missing &lt;param name=&quot;toMask&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.MaskLeft(System.String,System.Char,System.Int32)] Missing &lt;param name=&quot;maskChar&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.MaskLeft(System.String,System.Char,System.Int32)] Missing &lt;param name=&quot;showLast&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.MaskRight(System.String,System.Char,System.Int32)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.MaskRight(System.String,System.Char,System.Int32)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.MaskRight(System.String,System.Char,System.Int32)] Missing &lt;param name=&quot;toMask&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.MaskRight(System.String,System.Char,System.Int32)] Missing &lt;param name=&quot;maskChar&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.CrypographyExtensions.MaskRight(System.String,System.Char,System.Int32)] Missing &lt;param name=&quot;showFirst&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [T:SHHH.Cryptography.Cryptographer] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [P:SHHH.Cryptography.Cryptographer.Current] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographer.Decrypt(System.String,System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographer.Decrypt(System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographer.Decrypt(System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographer.Decrypt(System.String,System.String)] Missing &lt;param name=&quot;toDecrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographer.Encrypt(System.String,System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographer.Encrypt(System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographer.Encrypt(System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographer.Encrypt(System.String,System.String)] Missing &lt;param name=&quot;toEncrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographer.SetCryptographer(SHHH.Cryptography.ICryptographer)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographer.SetCryptographer(SHHH.Cryptography.ICryptographer)] Missing &lt;param name=&quot;cryptographer&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [T:SHHH.Cryptography.HMAC] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.#ctor(System.Byte[])] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.ComputeHash(System.String,System.String,System.DateTime)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.ComputeHash(System.String,System.String,System.DateTime)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.ComputeHash(System.String,System.String,System.DateTime)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.ComputeHash(System.String,System.String,System.DateTime)] Missing &lt;param name=&quot;data&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.ComputeHash(System.String,System.String,System.DateTime)] Missing &lt;param name=&quot;expiry&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.VerifyHash(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
   Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.VerifyHash(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.VerifyHash(System.String,System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.VerifyHash(System.String,System.String,System.String)] Missing &lt;param name=&quot;data&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.VerifyHash(System.String,System.String,System.String)] Missing &lt;param name=&quot;hash&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [T:SHHH.Cryptography.HMAC.HMACResult] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [T:SHHH.Cryptography.ICryptographer] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.ICryptographer.Decrypt(System.String,System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.ICryptographer.Decrypt(System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.ICryptographer.Decrypt(System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.ICryptographer.Decrypt(System.String,System.String)] Missing &lt;param name=&quot;toDecrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.ICryptographer.Encrypt(System.String,System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.ICryptographer.Encrypt(System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.ICryptographer.Encrypt(System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.ICryptographer.Encrypt(System.String,System.String)] Missing &lt;param name=&quot;toEncrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [T:SHHH.Cryptography.MD5Hash] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.MD5Hash.ComputeHash(System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.MD5Hash.ComputeHash(System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.MD5Hash.ComputeHash(System.String)] Missing &lt;param name=&quot;input&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [T:SHHH.Cryptography.RandomPassword] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.RandomPassword.Generate] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.RandomPassword.Generate] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.RandomPassword.Generate(System.Int32)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.RandomPassword.Generate(System.Int32)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.RandomPassword.Generate(System.Int32)] Missing &lt;param name=&quot;length&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.RandomPassword.Generate(System.Int32,System.Int32)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.RandomPassword.Generate(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.RandomPassword.Generate(System.Int32,System.Int32)] Missing &lt;param name=&quot;minLength&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.RandomPassword.Generate(System.Int32,System.Int32)] Missing &lt;param name=&quot;maxLength&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [T:SHHH.Cryptography.Cryptographers.DefaultCryptographer] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.DefaultCryptographer.Decrypt(System.String,System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.DefaultCryptographer.Decrypt(System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.DefaultCryptographer.Decrypt(System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.DefaultCryptographer.Decrypt(System.String,System.String)] Missing &lt;param name=&quot;toDecrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.DefaultCryptographer.Encrypt(System.String,System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.DefaultCryptographer.Encrypt(System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.DefaultCryptographer.Encrypt(System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.DefaultCryptographer.Encrypt(System.String,System.String)] Missing &lt;param name=&quot;toEncrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [T:SHHH.Cryptography.Cryptographers.RijndaelCryptographer] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.#ctor(System.String,System.String)] Missing &lt;param name=&quot;passPhrase&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.#ctor(System.String,System.String)] Missing &lt;param name=&quot;initVector16Bytes&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String)] Missing &lt;param name=&quot;toDecrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;cipherText&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;passPhrase&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;saltValue&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;hashAlgorithm&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;passwordIterations&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;initVector&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Decrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;keySize&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String)] Missing &lt;param name=&quot;salt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String)] Missing &lt;param name=&quot;toEncrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;summary&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;returns&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;toEncrypt&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;passPhrase&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;saltValue&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;hashAlgorithm&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;passwordIterations&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;initVector&quot;/&gt; documentation
-  Warn: ShowMissingComponent: [M:SHHH.Cryptography.Cryptographers.RijndaelCryptographer.Encrypt(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;keySize&quot;/&gt; documentation
   Info: Processed 61 topics
-    Last step completed in 00:00:26.7485
+    Last step completed in 00:00:27.7166
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -431,7 +323,7 @@ Processed 61 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\WebKI.xml
 Saving website table of contents to E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.3180
+    Last step completed in 00:00:00.2940
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -440,22 +332,22 @@ Generating website table of contents file...
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.1690
+    Last step completed in 00:00:00.1800
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 100 files
-Copied 155 files for the website content
-    Last step completed in 00:00:00.1360
+Copied 156 files for the website content
+    Last step completed in 00:00:00.1410
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0690
+    Last step completed in 00:00:00.0730
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 04/01/2013 10:53 PM.  Total time: 00:00:29.7157
+Build completed successfully at 04/01/2013 11:05 PM.  Total time: 00:00:30.7998
 
 </buildStep>
 </shfbBuild>
