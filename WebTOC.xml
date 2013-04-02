@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="1bb110ca-8089-4e57-8ca2-d5f532c183b7" Title="SHHH.Cryptography Namespace" Url="html/50f2a05e-db7d-c064-8513-04218ba88b11.htm">
+    <HelpTOCNode Id="16592c30-6f01-4186-9d68-8fa2af657f73" Title="CrypographyExtensions Class" Url="html/41e9dd48-21d1-d7fd-ae13-22dbec682b39.htm">
+      <HelpTOCNode Title="CrypographyExtensions Members" Url="html/6925c498-343a-a411-1602-3466c4a55ad2.htm" />
+      <HelpTOCNode Id="b1294f1a-62b8-4464-9533-a436b8f9c938" Title="CrypographyExtensions Methods" Url="html/b638d959-887a-eee0-bd91-b3a8c3c4360c.htm">
+        <HelpTOCNode Id="087213ac-c852-45d4-855d-3ccade77682e" Title="Decrypt Method " Url="html/f4f8cb60-f8c2-d851-629f-fb75bc66566d.htm">
+          <HelpTOCNode Title="Decrypt Method (String)" Url="html/ed3c6278-55de-dc77-c314-7488e39dde75.htm" />
+          <HelpTOCNode Title="Decrypt Method (String, String)" Url="html/730db2c9-9e13-f896-ac83-ba36c6ee9b32.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e0985209-47f3-4d8a-beb1-1e3a1e712c09" Title="Encrypt Method " Url="html/9bb61829-c069-44e0-cef1-aa5438e65999.htm">
+          <HelpTOCNode Title="Encrypt Method (String)" Url="html/edf825e6-5cbe-f589-31af-e3a5f5596dec.htm" />
+          <HelpTOCNode Title="Encrypt Method (String, String)" Url="html/098e5a6b-a0f3-5176-6998-d33430d81960.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MaskLeft Method " Url="html/fa020209-d00b-2552-8901-fdaf25cc10f0.htm" />
+        <HelpTOCNode Title="MaskRight Method " Url="html/f02d437d-8625-4a3e-bf27-b5c21e82a5e8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c9ffe391-9095-4864-a690-314d0ed390e8" Title="Cryptographer Class" Url="html/90cd2e37-a9a1-1717-529c-171110de5d62.htm">
+      <HelpTOCNode Title="Cryptographer Members" Url="html/cc652db4-4552-3d75-6c3a-4d823b44b76d.htm" />
+      <HelpTOCNode Title="Cryptographer Constructor " Url="html/978d268c-9b83-375b-d0b4-fdc1ae783f13.htm" />
+      <HelpTOCNode Id="5007b08b-10a9-4f7c-b3c8-dec523bc8d61" Title="Cryptographer Methods" Url="html/844a03dc-7632-066e-9698-5b991f3f5db1.htm">
+        <HelpTOCNode Title="Decrypt Method " Url="html/5043265e-13b4-8d54-56a6-b989f3302d0f.htm" />
+        <HelpTOCNode Title="Encrypt Method " Url="html/26fdd10b-aa6d-6c61-b927-f9b4258dd7e3.htm" />
+        <HelpTOCNode Title="SetCryptographer Method " Url="html/ab22dd72-0c21-57a9-accc-3c946929133e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d270339-79f3-4139-84d5-37f51c3c7970" Title="Cryptographer Properties" Url="html/98cb33f3-1032-71c6-a9f5-aa357285ecf0.htm">
+        <HelpTOCNode Title="Current Property " Url="html/6f06692d-f932-6ddc-bd9f-e2580b1693b5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7f890a24-dd51-4b36-bbf9-af046a8b7d1a" Title="HMAC Class" Url="html/d8846512-6ec2-e28b-3d98-738cbb2fc3ef.htm">
+      <HelpTOCNode Title="HMAC Members" Url="html/d0c785b0-151c-2765-3463-4651302d0434.htm" />
+      <HelpTOCNode Title="HMAC Constructor " Url="html/2bad824f-1ee3-99e9-422f-1ac23290701c.htm" />
+      <HelpTOCNode Id="9df15f78-c443-4438-82af-4f145899cc85" Title="HMAC Methods" Url="html/bc509af4-4cfc-82f7-93c4-38f1a328e46b.htm">
+        <HelpTOCNode Title="ComputeHash Method " Url="html/629195d2-dc8e-9b69-225d-3d608ed6d6d8.htm" />
+        <HelpTOCNode Title="VerifyHash Method " Url="html/e894b47e-fad7-80e2-2544-ff95b0180453.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="HMAC.HMACResult Enumeration" Url="html/7c0d0536-95cf-5248-f7b7-4219634f2904.htm" />
+    <HelpTOCNode Id="55d15822-4041-4101-982d-34f8af5ea5ab" Title="ICryptographer Interface" Url="html/ae977804-9a5c-ade0-3300-1b77b44e91fe.htm">
+      <HelpTOCNode Title="ICryptographer Members" Url="html/cf01e0b2-dd66-6ae8-a54d-306c796c9be5.htm" />
+      <HelpTOCNode Id="7096bc20-694f-4bbb-ab8c-5eb7603266f7" Title="ICryptographer Methods" Url="html/d7d2ac21-3cf9-496d-9db9-768f1582d6bd.htm">
+        <HelpTOCNode Title="Decrypt Method " Url="html/8d263b1b-41c7-b748-20a3-9d38e8c2feb6.htm" />
+        <HelpTOCNode Title="Encrypt Method " Url="html/e966104a-b794-df46-86ca-0d37104a2bfa.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="917a84cf-53ff-47cb-b3bf-c7858a3a39c8" Title="MD5Hash Class" Url="html/c472d65d-c904-b364-ddca-fcdb83248d03.htm">
+      <HelpTOCNode Title="MD5Hash Members" Url="html/0d8c7473-533d-de45-cdeb-4080144bcf52.htm" />
+      <HelpTOCNode Id="0584d084-f2eb-4089-b7c2-034e829e4fad" Title="MD5Hash Methods" Url="html/b0556ca5-fb1b-be6e-b95e-fb377b6c030b.htm">
+        <HelpTOCNode Title="ComputeHash Method " Url="html/ccbaa2a7-d28b-7ebf-4fc6-8fefb25df938.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d284d6cd-b94e-457b-afa1-d5bb83ee5930" Title="RandomPassword Class" Url="html/5aa66a62-d136-a34a-2d64-f5ffe4650423.htm">
+      <HelpTOCNode Title="RandomPassword Members" Url="html/0e9f1c08-c11d-7d5b-4d03-5a0d4899be62.htm" />
+      <HelpTOCNode Id="4116e318-0c31-44fd-945e-9abd27ae8149" Title="RandomPassword Methods" Url="html/c7c82a8c-ee11-b5a7-8bbe-90c157452407.htm">
+        <HelpTOCNode Id="9385421f-cf90-4db6-b914-d4585de634a5" Title="Generate Method " Url="html/aa80ea03-0efc-e6c7-49c1-630a9fbe0fe3.htm">
+          <HelpTOCNode Title="Generate Method " Url="html/49be3097-2b66-234c-d5ea-9e1eb6d81711.htm" />
+          <HelpTOCNode Title="Generate Method (Int32)" Url="html/b0a8496b-d941-9b54-09e4-b66a4157511c.htm" />
+          <HelpTOCNode Title="Generate Method (Int32, Int32)" Url="html/767d00dc-88f0-a70a-f43d-c107f8a27a20.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="b613e054-2caa-4e8c-9f8f-553ca8ab4be7" Title="SHHH.Cryptography.Cryptographers Namespace" Url="html/49d19400-2e96-b8c1-c4c9-cff7854995f5.htm">
+    <HelpTOCNode Id="edb61c76-4bbc-4b94-a7e1-1d68c7519474" Title="DefaultCryptographer Class" Url="html/d493d654-41d0-c99f-a664-ebc2ccd3f45f.htm">
+      <HelpTOCNode Title="DefaultCryptographer Members" Url="html/9065daae-9f5a-1e4a-6aa6-d73b0e398dd1.htm" />
+      <HelpTOCNode Title="DefaultCryptographer Constructor " Url="html/e02f347e-0eaf-4eaa-47dc-1b0a165b70db.htm" />
+      <HelpTOCNode Id="0dba0a68-2751-405a-8f6c-247aea11a3fe" Title="DefaultCryptographer Methods" Url="html/53549ed5-a1f9-a0b3-f5a7-76a8cf970631.htm">
+        <HelpTOCNode Title="Decrypt Method " Url="html/a0357425-15ba-0921-7ab0-96415f5717d7.htm" />
+        <HelpTOCNode Title="Encrypt Method " Url="html/3c538af5-7564-6071-95c0-717c48d73224.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4e8fc170-fc8e-465e-829f-9e1d2439293c" Title="RijndaelCryptographer Class" Url="html/a73b4e9b-41f4-183f-35ab-40d65f508c1b.htm">
+      <HelpTOCNode Title="RijndaelCryptographer Members" Url="html/1ff6a83a-cacc-24a1-eea2-78f48356069b.htm" />
+      <HelpTOCNode Title="RijndaelCryptographer Constructor " Url="html/a63b58d7-a94e-cb99-1633-c7e19b7db238.htm" />
+      <HelpTOCNode Id="ade457c8-6e7a-4e0f-8a4a-c636767654af" Title="RijndaelCryptographer Methods" Url="html/445990e8-5270-1e07-3603-2e71ce392ac8.htm">
+        <HelpTOCNode Id="e3e1ffc3-a5ca-4c52-8750-bd922c052072" Title="Decrypt Method " Url="html/1aaaee24-d74f-de67-7bfa-54f2f4a00a85.htm">
+          <HelpTOCNode Title="Decrypt Method (String, String)" Url="html/fca41a4a-5a2f-8221-ff2f-e81ba8b7359d.htm" />
+          <HelpTOCNode Title="Decrypt Method (String, String, String, String, Int32, String, Int32)" Url="html/0cb8c262-3638-8e06-68cc-871ea0f207af.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9f742478-d195-4eb4-b08b-081346d24b1c" Title="Encrypt Method " Url="html/57324910-a998-abe1-3867-028b7cc52655.htm">
+          <HelpTOCNode Title="Encrypt Method (String, String)" Url="html/b493c494-f7fa-28e8-3032-1e5ba7e9dc4a.htm" />
+          <HelpTOCNode Title="Encrypt Method (String, String, String, String, Int32, String, Int32)" Url="html/e080fe29-1699-21eb-2c4f-a0600d8f99e6.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

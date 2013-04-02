@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="ComputeHash method" Url="html/629195d2-dc8e-9b69-225d-3d608ed6d6d8.htm" />
+  <HelpKINode Title="ComputeHash method" Url="html/ccbaa2a7-d28b-7ebf-4fc6-8fefb25df938.htm" />
+  <HelpKINode Title="CrypographyExtensions class" Url="html/41e9dd48-21d1-d7fd-ae13-22dbec682b39.htm" />
+  <HelpKINode Title="CrypographyExtensions class" Url="html/6925c498-343a-a411-1602-3466c4a55ad2.htm" />
+  <HelpKINode Title="CrypographyExtensions class">
+    <HelpKINode Title="about CrypographyExtensions class" Url="html/41e9dd48-21d1-d7fd-ae13-22dbec682b39.htm" />
+    <HelpKINode Title="all members" Url="html/6925c498-343a-a411-1602-3466c4a55ad2.htm" />
+    <HelpKINode Title="methods" Url="html/b638d959-887a-eee0-bd91-b3a8c3c4360c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CrypographyExtensions.Decrypt method" Url="html/f4f8cb60-f8c2-d851-629f-fb75bc66566d.htm" />
+  <HelpKINode Title="CrypographyExtensions.Encrypt method" Url="html/9bb61829-c069-44e0-cef1-aa5438e65999.htm" />
+  <HelpKINode Title="CrypographyExtensions.MaskLeft method" Url="html/fa020209-d00b-2552-8901-fdaf25cc10f0.htm" />
+  <HelpKINode Title="CrypographyExtensions.MaskRight method" Url="html/f02d437d-8625-4a3e-bf27-b5c21e82a5e8.htm" />
+  <HelpKINode Title="Cryptographer class" Url="html/90cd2e37-a9a1-1717-529c-171110de5d62.htm" />
+  <HelpKINode Title="Cryptographer class" Url="html/cc652db4-4552-3d75-6c3a-4d823b44b76d.htm" />
+  <HelpKINode Title="Cryptographer class">
+    <HelpKINode Title="about Cryptographer class" Url="html/90cd2e37-a9a1-1717-529c-171110de5d62.htm" />
+    <HelpKINode Title="all members" Url="html/cc652db4-4552-3d75-6c3a-4d823b44b76d.htm" />
+    <HelpKINode Title="constructor" Url="html/978d268c-9b83-375b-d0b4-fdc1ae783f13.htm" />
+    <HelpKINode Title="methods" Url="html/844a03dc-7632-066e-9698-5b991f3f5db1.htm" />
+    <HelpKINode Title="properties" Url="html/98cb33f3-1032-71c6-a9f5-aa357285ecf0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cryptographer.Cryptographer constructor" Url="html/978d268c-9b83-375b-d0b4-fdc1ae783f13.htm" />
+  <HelpKINode Title="Cryptographer.Current property" Url="html/6f06692d-f932-6ddc-bd9f-e2580b1693b5.htm" />
+  <HelpKINode Title="Cryptographer.Decrypt method" Url="html/5043265e-13b4-8d54-56a6-b989f3302d0f.htm" />
+  <HelpKINode Title="Cryptographer.Encrypt method" Url="html/26fdd10b-aa6d-6c61-b927-f9b4258dd7e3.htm" />
+  <HelpKINode Title="Cryptographer.SetCryptographer method" Url="html/ab22dd72-0c21-57a9-accc-3c946929133e.htm" />
+  <HelpKINode Title="Current property" Url="html/6f06692d-f932-6ddc-bd9f-e2580b1693b5.htm" />
+  <HelpKINode Title="Decrypt method" Url="html/1aaaee24-d74f-de67-7bfa-54f2f4a00a85.htm" />
+  <HelpKINode Title="Decrypt method" Url="html/5043265e-13b4-8d54-56a6-b989f3302d0f.htm" />
+  <HelpKINode Title="Decrypt method" Url="html/8d263b1b-41c7-b748-20a3-9d38e8c2feb6.htm" />
+  <HelpKINode Title="Decrypt method" Url="html/a0357425-15ba-0921-7ab0-96415f5717d7.htm" />
+  <HelpKINode Title="Decrypt method" Url="html/f4f8cb60-f8c2-d851-629f-fb75bc66566d.htm" />
+  <HelpKINode Title="DefaultCryptographer class" Url="html/9065daae-9f5a-1e4a-6aa6-d73b0e398dd1.htm" />
+  <HelpKINode Title="DefaultCryptographer class" Url="html/d493d654-41d0-c99f-a664-ebc2ccd3f45f.htm" />
+  <HelpKINode Title="DefaultCryptographer class">
+    <HelpKINode Title="about DefaultCryptographer class" Url="html/d493d654-41d0-c99f-a664-ebc2ccd3f45f.htm" />
+    <HelpKINode Title="all members" Url="html/9065daae-9f5a-1e4a-6aa6-d73b0e398dd1.htm" />
+    <HelpKINode Title="constructor" Url="html/e02f347e-0eaf-4eaa-47dc-1b0a165b70db.htm" />
+    <HelpKINode Title="methods" Url="html/53549ed5-a1f9-a0b3-f5a7-76a8cf970631.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultCryptographer.Decrypt method" Url="html/a0357425-15ba-0921-7ab0-96415f5717d7.htm" />
+  <HelpKINode Title="DefaultCryptographer.DefaultCryptographer constructor" Url="html/e02f347e-0eaf-4eaa-47dc-1b0a165b70db.htm" />
+  <HelpKINode Title="DefaultCryptographer.Encrypt method" Url="html/3c538af5-7564-6071-95c0-717c48d73224.htm" />
+  <HelpKINode Title="Encrypt method" Url="html/26fdd10b-aa6d-6c61-b927-f9b4258dd7e3.htm" />
+  <HelpKINode Title="Encrypt method" Url="html/3c538af5-7564-6071-95c0-717c48d73224.htm" />
+  <HelpKINode Title="Encrypt method" Url="html/57324910-a998-abe1-3867-028b7cc52655.htm" />
+  <HelpKINode Title="Encrypt method" Url="html/9bb61829-c069-44e0-cef1-aa5438e65999.htm" />
+  <HelpKINode Title="Encrypt method" Url="html/e966104a-b794-df46-86ca-0d37104a2bfa.htm" />
+  <HelpKINode Title="Expired enumeration member" Url="html/7c0d0536-95cf-5248-f7b7-4219634f2904.htm" />
+  <HelpKINode Title="Generate method" Url="html/aa80ea03-0efc-e6c7-49c1-630a9fbe0fe3.htm" />
+  <HelpKINode Title="HMAC class" Url="html/d0c785b0-151c-2765-3463-4651302d0434.htm" />
+  <HelpKINode Title="HMAC class" Url="html/d8846512-6ec2-e28b-3d98-738cbb2fc3ef.htm" />
+  <HelpKINode Title="HMAC class">
+    <HelpKINode Title="about HMAC class" Url="html/d8846512-6ec2-e28b-3d98-738cbb2fc3ef.htm" />
+    <HelpKINode Title="all members" Url="html/d0c785b0-151c-2765-3463-4651302d0434.htm" />
+    <HelpKINode Title="constructor" Url="html/2bad824f-1ee3-99e9-422f-1ac23290701c.htm" />
+    <HelpKINode Title="methods" Url="html/bc509af4-4cfc-82f7-93c4-38f1a328e46b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HMAC.ComputeHash method" Url="html/629195d2-dc8e-9b69-225d-3d608ed6d6d8.htm" />
+  <HelpKINode Title="HMAC.HMAC constructor" Url="html/2bad824f-1ee3-99e9-422f-1ac23290701c.htm" />
+  <HelpKINode Title="HMAC.HMACResult enumeration" Url="html/7c0d0536-95cf-5248-f7b7-4219634f2904.htm" />
+  <HelpKINode Title="HMAC.VerifyHash method" Url="html/e894b47e-fad7-80e2-2544-ff95b0180453.htm" />
+  <HelpKINode Title="ICryptographer interface" Url="html/ae977804-9a5c-ade0-3300-1b77b44e91fe.htm" />
+  <HelpKINode Title="ICryptographer interface" Url="html/cf01e0b2-dd66-6ae8-a54d-306c796c9be5.htm" />
+  <HelpKINode Title="ICryptographer interface">
+    <HelpKINode Title="about ICryptographer interface" Url="html/ae977804-9a5c-ade0-3300-1b77b44e91fe.htm" />
+    <HelpKINode Title="all members" Url="html/cf01e0b2-dd66-6ae8-a54d-306c796c9be5.htm" />
+    <HelpKINode Title="methods" Url="html/d7d2ac21-3cf9-496d-9db9-768f1582d6bd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICryptographer.Decrypt method" Url="html/8d263b1b-41c7-b748-20a3-9d38e8c2feb6.htm" />
+  <HelpKINode Title="ICryptographer.Encrypt method" Url="html/e966104a-b794-df46-86ca-0d37104a2bfa.htm" />
+  <HelpKINode Title="Invalid enumeration member" Url="html/7c0d0536-95cf-5248-f7b7-4219634f2904.htm" />
+  <HelpKINode Title="MaskLeft method" Url="html/fa020209-d00b-2552-8901-fdaf25cc10f0.htm" />
+  <HelpKINode Title="MaskRight method" Url="html/f02d437d-8625-4a3e-bf27-b5c21e82a5e8.htm" />
+  <HelpKINode Title="MD5Hash class" Url="html/0d8c7473-533d-de45-cdeb-4080144bcf52.htm" />
+  <HelpKINode Title="MD5Hash class" Url="html/c472d65d-c904-b364-ddca-fcdb83248d03.htm" />
+  <HelpKINode Title="MD5Hash class">
+    <HelpKINode Title="about MD5Hash class" Url="html/c472d65d-c904-b364-ddca-fcdb83248d03.htm" />
+    <HelpKINode Title="all members" Url="html/0d8c7473-533d-de45-cdeb-4080144bcf52.htm" />
+    <HelpKINode Title="methods" Url="html/b0556ca5-fb1b-be6e-b95e-fb377b6c030b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MD5Hash.ComputeHash method" Url="html/ccbaa2a7-d28b-7ebf-4fc6-8fefb25df938.htm" />
+  <HelpKINode Title="OK enumeration member" Url="html/7c0d0536-95cf-5248-f7b7-4219634f2904.htm" />
+  <HelpKINode Title="RandomPassword class" Url="html/0e9f1c08-c11d-7d5b-4d03-5a0d4899be62.htm" />
+  <HelpKINode Title="RandomPassword class" Url="html/5aa66a62-d136-a34a-2d64-f5ffe4650423.htm" />
+  <HelpKINode Title="RandomPassword class">
+    <HelpKINode Title="about RandomPassword class" Url="html/5aa66a62-d136-a34a-2d64-f5ffe4650423.htm" />
+    <HelpKINode Title="all members" Url="html/0e9f1c08-c11d-7d5b-4d03-5a0d4899be62.htm" />
+    <HelpKINode Title="methods" Url="html/c7c82a8c-ee11-b5a7-8bbe-90c157452407.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RandomPassword.Generate method" Url="html/aa80ea03-0efc-e6c7-49c1-630a9fbe0fe3.htm" />
+  <HelpKINode Title="RijndaelCryptographer class" Url="html/1ff6a83a-cacc-24a1-eea2-78f48356069b.htm" />
+  <HelpKINode Title="RijndaelCryptographer class" Url="html/a73b4e9b-41f4-183f-35ab-40d65f508c1b.htm" />
+  <HelpKINode Title="RijndaelCryptographer class">
+    <HelpKINode Title="about RijndaelCryptographer class" Url="html/a73b4e9b-41f4-183f-35ab-40d65f508c1b.htm" />
+    <HelpKINode Title="all members" Url="html/1ff6a83a-cacc-24a1-eea2-78f48356069b.htm" />
+    <HelpKINode Title="constructor" Url="html/a63b58d7-a94e-cb99-1633-c7e19b7db238.htm" />
+    <HelpKINode Title="methods" Url="html/445990e8-5270-1e07-3603-2e71ce392ac8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RijndaelCryptographer.Decrypt method" Url="html/1aaaee24-d74f-de67-7bfa-54f2f4a00a85.htm" />
+  <HelpKINode Title="RijndaelCryptographer.Encrypt method" Url="html/57324910-a998-abe1-3867-028b7cc52655.htm" />
+  <HelpKINode Title="RijndaelCryptographer.RijndaelCryptographer constructor" Url="html/a63b58d7-a94e-cb99-1633-c7e19b7db238.htm" />
+  <HelpKINode Title="SetCryptographer method" Url="html/ab22dd72-0c21-57a9-accc-3c946929133e.htm" />
+  <HelpKINode Title="SHHH.Cryptography namespace" Url="html/50f2a05e-db7d-c064-8513-04218ba88b11.htm" />
+  <HelpKINode Title="SHHH.Cryptography.CrypographyExtensions class" Url="html/41e9dd48-21d1-d7fd-ae13-22dbec682b39.htm" />
+  <HelpKINode Title="SHHH.Cryptography.CrypographyExtensions class" Url="html/6925c498-343a-a411-1602-3466c4a55ad2.htm" />
+  <HelpKINode Title="SHHH.Cryptography.Cryptographer class" Url="html/90cd2e37-a9a1-1717-529c-171110de5d62.htm" />
+  <HelpKINode Title="SHHH.Cryptography.Cryptographer class" Url="html/cc652db4-4552-3d75-6c3a-4d823b44b76d.htm" />
+  <HelpKINode Title="SHHH.Cryptography.Cryptographers namespace" Url="html/49d19400-2e96-b8c1-c4c9-cff7854995f5.htm" />
+  <HelpKINode Title="SHHH.Cryptography.Cryptographers.DefaultCryptographer class" Url="html/9065daae-9f5a-1e4a-6aa6-d73b0e398dd1.htm" />
+  <HelpKINode Title="SHHH.Cryptography.Cryptographers.DefaultCryptographer class" Url="html/d493d654-41d0-c99f-a664-ebc2ccd3f45f.htm" />
+  <HelpKINode Title="SHHH.Cryptography.Cryptographers.RijndaelCryptographer class" Url="html/1ff6a83a-cacc-24a1-eea2-78f48356069b.htm" />
+  <HelpKINode Title="SHHH.Cryptography.Cryptographers.RijndaelCryptographer class" Url="html/a73b4e9b-41f4-183f-35ab-40d65f508c1b.htm" />
+  <HelpKINode Title="SHHH.Cryptography.HMAC class" Url="html/d0c785b0-151c-2765-3463-4651302d0434.htm" />
+  <HelpKINode Title="SHHH.Cryptography.HMAC class" Url="html/d8846512-6ec2-e28b-3d98-738cbb2fc3ef.htm" />
+  <HelpKINode Title="SHHH.Cryptography.HMAC.HMACResult enumeration" Url="html/7c0d0536-95cf-5248-f7b7-4219634f2904.htm" />
+  <HelpKINode Title="SHHH.Cryptography.ICryptographer interface" Url="html/ae977804-9a5c-ade0-3300-1b77b44e91fe.htm" />
+  <HelpKINode Title="SHHH.Cryptography.ICryptographer interface" Url="html/cf01e0b2-dd66-6ae8-a54d-306c796c9be5.htm" />
+  <HelpKINode Title="SHHH.Cryptography.MD5Hash class" Url="html/0d8c7473-533d-de45-cdeb-4080144bcf52.htm" />
+  <HelpKINode Title="SHHH.Cryptography.MD5Hash class" Url="html/c472d65d-c904-b364-ddca-fcdb83248d03.htm" />
+  <HelpKINode Title="SHHH.Cryptography.RandomPassword class" Url="html/0e9f1c08-c11d-7d5b-4d03-5a0d4899be62.htm" />
+  <HelpKINode Title="SHHH.Cryptography.RandomPassword class" Url="html/5aa66a62-d136-a34a-2d64-f5ffe4650423.htm" />
+  <HelpKINode Title="VerifyHash method" Url="html/e894b47e-fad7-80e2-2544-ff95b0180453.htm" />
+</HelpKI>
