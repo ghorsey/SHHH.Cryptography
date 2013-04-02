@@ -24,7 +24,9 @@
       <DocumentationSource sourceFile="..\SHHH.Cryptography\SHHH.Cryptography.csproj" />
     </DocumentationSources>
     <HelpAttributes />
-    <NamespaceSummaries />
+    <NamespaceSummaries>
+      <NamespaceSummaryItem name="SHHH.Cryptography" isDocumented="True">Contains classes to create an common interface around cryptography, and some basic helpers like HMAC, MD5, and generating random passwords</NamespaceSummaryItem>
+<NamespaceSummaryItem name="SHHH.Cryptography.Cryptographers" isDocumented="True">Contains the default cryptographer (which leaves strings unencrypted) and an implementation of the Rijndael algorithm</NamespaceSummaryItem></NamespaceSummaries>
     <PlugInConfigurations />
     <BuildLogFile />
     <HtmlHelp1xCompilerPath />
@@ -47,6 +49,7 @@
     <NamingMethod>Guid</NamingMethod>
     <HelpTitle>SHHH.Cryptography API Documentation</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
+    <ProjectSummary>A library to assist with using cryptography</ProjectSummary>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in
        order for Visual Studio to perform the build.  The others are optional
