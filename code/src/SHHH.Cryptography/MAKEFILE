@@ -1,0 +1,9 @@
+NuGet = ..\.nuget\NuGet.exe
+SPEC:
+	 $(NuGet) spec SHHH.Cryptography.csproj
+
+PACK: SPEC
+	$(NuGet) pack SHHH.Cryptography.csproj -Prop Configuration=Release
+
+PUSH: PACK
+	$(NuGet) push SHHH.Cryptography.*.nupkg
