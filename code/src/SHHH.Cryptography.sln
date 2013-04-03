@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\README.md = ..\..\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{CCA316A9-510F-4C11-B6CB-1ECC5E3B9DD4}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "SHHH_Cryptography", "SHHH_Cryptography\SHHH_Cryptography.shfbproj", "{B075A72F-7FEB-4298-A963-9BE2219EFAD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,8 +28,13 @@ Global
 		{79531C6A-6287-42FC-A58F-2B3366854D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79531C6A-6287-42FC-A58F-2B3366854D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79531C6A-6287-42FC-A58F-2B3366854D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B075A72F-7FEB-4298-A963-9BE2219EFAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B075A72F-7FEB-4298-A963-9BE2219EFAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B075A72F-7FEB-4298-A963-9BE2219EFAD8} = {CCA316A9-510F-4C11-B6CB-1ECC5E3B9DD4}
 	EndGlobalSection
 EndGlobal

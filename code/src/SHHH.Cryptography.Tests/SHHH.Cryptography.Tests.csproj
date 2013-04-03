@@ -98,7 +98,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SHHH.Cryptography\SHHH.Cryptography.csproj">
       <Project>{CE80E377-2208-4D94-A51E-4E3FBFD620D4}</Project>
-      <Name>SquareOne.Cryptography</Name>
+      <Name>SHHH.Cryptography</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
