@@ -1,9 +1,17 @@
 NuGet = ..\.nuget\NuGet.exe
+Name = SHHH.Cryptography.
 SPEC:
-	 $(NuGet) spec SHHH.Cryptography.csproj
+	@ECHO CREATING SPEC...
+	 $(NuGet) spec $(Name)csproj
 
-PACK: SPEC
-	$(NuGet) pack SHHH.Cryptography.csproj -Prop Configuration=Release
+PACK: SPEC CLEAN
+	@ECHO CREATING PACK...
+	$(NuGet) pack $(Name)csproj -Prop Configuration=Release
 
 PUSH: PACK
-	$(NuGet) push SHHH.Cryptography.*.nupkg
+	@ECHO PUSHING PACK...
+	$(NuGet) push $(Name)*.nupkg
+
+CLEAN:
+	@ECHO CLEANING PACKS
+	del $(Name)*.nupkg
