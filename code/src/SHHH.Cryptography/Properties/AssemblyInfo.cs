@@ -1,4 +1,5 @@
-﻿// <copyright file="AssemblyInfo.cs" company="SHHH Innovations LLC">
+﻿using System;
+// <copyright file="AssemblyInfo.cs" company="SHHH Innovations LLC">
 // Copyright SHHH Innovations LLC
 // </copyright>
 using System.Reflection;
@@ -25,7 +26,8 @@ using System.Security;
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("9fabf3d7-4148-4075-92a2-ef600b0d731a")]
 
-[assembly: AssemblyVersion("1.2.0.1")]
-[assembly: AssemblyFileVersion("1.2.0.1")]
+[assembly: AssemblyVersion("1.2.0.2")]
+[assembly: AssemblyFileVersion("1.2.0.2")]
 
+[assembly: CLSCompliant(true)]
 [assembly: AllowPartiallyTrustedCallers]
