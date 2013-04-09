@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\SHHH_Cryptography.shfbproj" started="4/1/2013 11:04:48 PM">
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\SHHH_Cryptography.shfbproj" started="4/9/2013 12:55:36 AM">
 <buildStep step="Initializing">
 Finding tools...
 Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
@@ -20,7 +20,7 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0190
+    Last step completed in 00:00:00.0200
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -36,18 +36,18 @@ Generating reflection information...
   XslTransform (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
-    Last step completed in 00:00:00.9631
+    Last step completed in 00:00:01.0031
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="ApplyVisibilityProperties">
 Applying visibility properties to reflection information file
     0 attribute nodes removed
     0 explicit interface implementations removed
     0 local and base class EII elements removed
-    Last step completed in 00:00:00.1180
+    Last step completed in 00:00:00.0780
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -59,7 +59,7 @@ Transforming reflection output...
   XslTransform (v2.7.2.0)
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-    Last step completed in 00:00:00.6770
+    Last step completed in 00:00:00.7230
 </buildStep>
 <buildStep step="ModifyHelpTopicFilenames">
 Modifying help topic filenames in reflection information file
@@ -262,12 +262,12 @@ C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; E:\Users\G
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\branding\ps-instrumentedLink.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\branding\ps-languageSpecificText.xslt
     C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\branding\ps-codesnippet.xslt
-    Last step completed in 00:00:00.1550
+    Last step completed in 00:00:00.2090
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -280,17 +280,17 @@ Generating intermediate table of contents file...
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2100
+    Last step completed in 00:00:00.2300
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0190
+    Last step completed in 00:00:00.0200
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\sandcastle.config
-    Last step completed in 00:00:00.0780
+    Last step completed in 00:00:00.1290
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
@@ -299,9 +299,11 @@ Building reference help topics...
   Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
   Info: Loading configuration...
   Info: Processing topics...
+  Warn: ResolveReferenceLinksComponent2: [T:SHHH.Cryptography.CrypographyExtensions] MSDN URL not found for target &#39;T:Microsoft.FSharp.Core.AbstractClassAttribute&#39;.
+  Warn: ResolveReferenceLinksComponent2: [T:SHHH.Cryptography.CrypographyExtensions] MSDN URL not found for target &#39;T:Microsoft.FSharp.Core.SealedAttribute&#39;.
   Warn: ShowMissingComponent: [M:SHHH.Cryptography.HMAC.VerifyHash(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
   Info: Processed 61 topics
-    Last step completed in 00:00:27.7166
+    Last step completed in 00:00:29.4127
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -323,31 +325,31 @@ Processed 61 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\WebKI.xml
 Saving website table of contents to E:\Users\Geoff\Projects\SHHH.Cryptography\code\src\SHHH_Cryptography\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.2940
+    Last step completed in 00:00:00.4910
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.1800
+    Last step completed in 00:00:00.3420
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 100 files
 Copied 156 files for the website content
-    Last step completed in 00:00:00.1410
+    Last step completed in 00:00:00.4550
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0730
+    Last step completed in 00:00:00.0700
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 04/01/2013 11:05 PM.  Total time: 00:00:30.7998
+Build completed successfully at 04/09/2013 12:56 AM.  Total time: 00:00:33.3259
 
 </buildStep>
 </shfbBuild>
