@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/ghorsey/SHHH.Cryptography</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>Marked the Assembly as CLS compliant</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>SHHH Cryptography</tags>
   </metadata>

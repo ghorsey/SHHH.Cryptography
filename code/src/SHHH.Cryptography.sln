@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CF455E0-E097-4347-B530-8E7D0BDBF6DD}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\README.md = ..\..\README.md
+		SHHH.Cryptography\SHHH.Cryptography.nuspec = SHHH.Cryptography\SHHH.Cryptography.nuspec
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{CCA316A9-510F-4C11-B6CB-1ECC5E3B9DD4}"
