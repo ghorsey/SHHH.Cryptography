@@ -10,11 +10,11 @@ using System.Security;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SHHH.Cryptography")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A library that abstracts cryptography algorithms behind an easy interface")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("SHHH Innovations LLC")]
 [assembly: AssemblyProduct("SHHH.Cryptography")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2009")]
+[assembly: AssemblyCopyright("Copyright © 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
